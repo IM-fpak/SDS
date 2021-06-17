@@ -15,7 +15,7 @@
     + [Key findings](#key-findings-3)
     + [Discussion](#discussion-3)
   * [Quali-quantitative integration across methods](#quali-quantitative-integration-across-methods)
-    + [Interplay of netnography, network analysis and content analysis](#interplay-of-netnography--network-analysis-and-content-analysis)
+    + [Interplay of netnography, network analysis and content analysis](#interplay-of-netnography-network-analysis-and-content-analysis)
     + [Computationally-led vs. computationally-assisted approaches to the analysis of content](#computationally-led-vs-computationally-assisted-approaches-to-the-analysis-of-content)
     + [Overall methodological considerations](#overall-methodological-considerations)
   * [Conclusion](#conclusion)
