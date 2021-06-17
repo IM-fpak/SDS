@@ -1,25 +1,32 @@
+
 # Digital Methods
-  * [Introduction](#introduction)
-  * [Netnography](#netnography)
-     + [Key findings](#key-findings)
-     + [Discussion](#discussion-1)
-  * [Network Analysis](#network-analysis)
-    + [Manual Networks](#manual-networks)
-      - [Key findings](#key-findings-1)
-      - [Discussion](#discussion-2)
-    + [Twitter data collection](#twitter-data-collection)
-    + [Automated retweet network](#automated-retweet-network)
-      - [Key findings](#key-findings-1)
-      - [Discussion](#discussion-3)
-  * [Content Analysis](#content-analysis)
-    + [Key findings](#key-findings-3)
-    + [Discussion](#discussion-4)
-  * [Quali-quantitative integration across methods](#quali-quantitative-integration-across-methods)
-    + [Interplay of netnography, network analysis and content analysis](#interplay-of-netnography-network-analysis-and-content-analysis)
-    + [Computationally-led vs. computationally-assisted approaches to the analysis of content](#computationally-led-vs-computationally-assisted-approaches-to-the-analysis-of-content)
-    + [Overall methodological considerations](#overall-methodological-considerations)
-  * [Conclusion](#conclusion)
-  * [References](#references)
+- [Introduction](#introduction)
+- [Netnography](#netnography)
+  * [Key findings](#key-findings)
+  * [Discussion](#discussion)
+- [Network Analysis](#network-analysis)
+  * [Manual Networks](#manual-networks)
+    + [Key findings](#key-findings-1)
+  * [Twitter data collection](#twitter-data-collection)
+  * [Automated retweet network](#automated-retweet-network)
+    + [Key findings](#key-findings-2)
+    + [Discussion](#discussion-1)
+- [Content Analysis](#content-analysis)
+  * [Key findings](#key-findings-3)
+  * [Discussion](#discussion-2)
+- [Quali-quantitative integration across methods](#quali-quantitative-integration-across-methods)
+   * [Interplay of netnography, network analysis and content analysis](#interplay-of-netnography-network-analysis-and-content-analysis)
+   * [Computationally-led vs. computationally-assisted approaches to the analysis of content](#computationally-led-vs-computationally-assisted-approaches-to-the-analysis-of-content)
+   * [Overall methodological considerations](#overall-methodological-considerations)
+ - [Conclusion](#conclusion)
+ - [References](#references)
+
+
+
+
+
+
+
 
 
 # ASDS2: 
@@ -112,7 +119,7 @@ In the analysis of our manual networks, we find important intra-national differe
 <img src="https://user-images.githubusercontent.com/86028042/122354236-1665c100-cf51-11eb-890b-8dda47d050a4.png">
 
 
-**Network of German-speaking actors**. During the netnography, it was very difficult to find anti-vaccine actors and discussion on mainstream social media accounts and through Google searches. An inactive anti-vaccine Facebook page led to the messaging app Telegram and the public channel @impfenmussfreiwilligbleiben which turned out to be a key site for anti-vaccine users to share content. The network is therefore centred around this Telegram channel as it shows hyperlink traces between this channel and other, mainly collective, actors such as websites, blogs, Telegram channels and media outlets. The channel acts like a curator of anti-vaccine content as the (anonymous) owners of the channel and its users select and post on the channel. In this curation of content, the users do not distinguish between legacy media outlets with alternative media sources and conspiracy theory websites as all types of sources are linked to. Moreover, links to mainstream social media platforms are very rare and Twitter does not seem to be an important site for anti-vaccine users to discuss, a relevant finding which puts the automated retweet network further down into context.
+**Network of German-speaking actors.** During the netnography, it was very difficult to find anti-vaccine actors and discussion on mainstream social media accounts and through Google searches. An inactive anti-vaccine Facebook page led to the messaging app Telegram and the public channel @impfenmussfreiwilligbleiben which turned out to be a key site for anti-vaccine users to share content. The network is therefore centred around this Telegram channel as it shows hyperlink traces between this channel and other, mainly collective, actors such as websites, blogs, Telegram channels and media outlets. The channel acts like a curator of anti-vaccine content as the (anonymous) owners of the channel and its users select and post on the channel. In this curation of content, the users do not distinguish between legacy media outlets with alternative media sources and conspiracy theory websites as all types of sources are linked to. Moreover, links to mainstream social media platforms are very rare and Twitter does not seem to be an important site for anti-vaccine users to discuss, a relevant finding which puts the automated retweet network further down into context.
 
 <img src="https://user-images.githubusercontent.com/86028042/122354232-15cd2a80-cf51-11eb-81f3-beed8e4b24dd.png">
 
@@ -122,11 +129,11 @@ In the analysis of our manual networks, we find important intra-national differe
 <img src="https://user-images.githubusercontent.com/86028042/122354240-16fe5780-cf51-11eb-96a8-f5f4a940fbd0.png">
 
 
-**Network of Polish-speaking actors**. The anti-vaccine debate appears to be shaped mostly by collective actors, such as right-wing, often radical media portals, for instance &quot;Nasza Polska&quot; or &quot;Polonia Christiana 24&quot;. The liberal-conservative news media website &quot;Najwyższy czas!&quot; holds a central position in Polish network, being referred to by both individuals and collective actors. Furthermore, the Facebook page &quot;Stop compulsory vaccination&quot; which is followed by 19,279 users is a key actor in the debate. However, it mostly links to other anti-vaccine actors, and its individual users do not engage actively in creating its content. Conspiracy-theory blogs take peripheral positions in the network, often referring to each other, and rarely being linked to by other actors. Lastly, the popular microblogging webpage wykop.pl is also placed in the periphery and its users refer to a wider array of sources, including direct links to official institutions.
+**Network of Polish-speaking actors.** The anti-vaccine debate appears to be shaped mostly by collective actors, such as right-wing, often radical media portals, for instance &quot;Nasza Polska&quot; or &quot;Polonia Christiana 24&quot;. The liberal-conservative news media website &quot;Najwyższy czas!&quot; holds a central position in Polish network, being referred to by both individuals and collective actors. Furthermore, the Facebook page &quot;Stop compulsory vaccination&quot; which is followed by 19,279 users is a key actor in the debate. However, it mostly links to other anti-vaccine actors, and its individual users do not engage actively in creating its content. Conspiracy-theory blogs take peripheral positions in the network, often referring to each other, and rarely being linked to by other actors. Lastly, the popular microblogging webpage wykop.pl is also placed in the periphery and its users refer to a wider array of sources, including direct links to official institutions.
 
 After having explored the relations between key anti-vaccine actors, our analysis moves on to explore where these actors are situated in the broader Covid-19 vaccine debate on Twitter (RQ3).
 
-## Twitter data collection
+### Twitter data collection
 
 The collection of the three country-specific datasets was conducted in two rounds: During the first round, we sampled tweets based on the Danish, German and Polish vaccine-related terms which we had found through the netnographic campaign. We then trained the word embedding model _word2vec_ on our three tweet corpora to subsequently find similar words to the query terms of the first sampling round (see ASDS2 section). We manually selected vaccine-related terms, finalized our list of query terms (see appendix xx) and sampled our final three datasets.
 
@@ -142,11 +149,11 @@ After removing duplicates, the quality of the dataset was assessed by a manual i
 
 The final datasets contained tweets from 21 May 2021 to 28 May 2021. The Danish dataset comprises 4,665 tweets, the German dataset comprises 204,412 tweets and the Polish dataset comprises 100,985 tweets.
 
-## Automated retweet network
+### Automated retweet network
 
 We created three automated networks based on the retweet relations in our datasets. Since these networks are very large and do not contain a clearly demarcated set of actors, we decided that additional information on the nodes was needed in order to interpret these networks. Using an active learning approach (see ASDS2 section), we trained a classifier which labelled all tweets as either anti-vaccine, pro-vaccine, neutral or not-vaccine-related. Based on this labelling of tweets, we marked users as belonging to one of these groups depending on which category the majority of their tweets belonged to. To achieve a &quot;spatialization of the topology of the network&quot; (Decuypere, 2020, p. 81), we used the ForceAtlas2 algorithm in Gephi for the visualization of the graphs. To further ease the interpretation of the network structure, we performed a modularity community detection using the Python package _python-louvain_ which provides an implementation of the Louvain algorithm. Additionally, we conducted a k-core decomposition analysis to get an overview of the distribution of anti-vaccine actors in the core and the periphery of the network.
 
-### Key findings
+#### Key findings
 
 In the graphs below (see graph 4-6), we excluded users marked as not-vaccine-related in order to focus on the actual Covid-19 vaccine-related retweet network. For each dataset, the first graph shows the six largest communities coded by color, whereas the second graph shows the same network with anti-vaccine users marked in blue.
 
@@ -166,7 +173,7 @@ The k-core decomposition shows a big intra-national differences in the proportio
 
 There is a lively anti-vaccine debate on Danish Twitter with users in both the core and the periphery of the network participating in this debate. The Polish anti-vaccine actors are partly active on Twitter, while Twitter does not play a major role in the German-speaking anti-vaccine debate. Overall, these findings are in line with our conclusions drawn from the manual networks and they highlight the importance of a cross-platform netnographic investigation: Insights gained from Twitter data are highly medium-specific and do not necessarily represent a wider debate.
 
-### Discussion
+#### Discussion
 
 The most important shortcoming of our automated network analysis is related to the labelling of users: The active learning classification is not fault-free and especially the evaluation of the Polish classifier showed that it often mislabeled tweets (see ASDS2 section). More generally, the classification is often ambiguous and the issues that thus arise spill over into our network analysis. To mitigate this and contextualize the findings from the automated retweet network further, we netnographically investigated the users that were identified as most central by the k-core decomposition analysis. [Very brief summary of what we found: any issues? Did this confirm our network analysis? Refer to the rows in the immersion journals here].
 
@@ -200,7 +207,7 @@ In the German tweets, the focal point is the topic of vaccinating children (clus
 
 Overall, the clustering of co-occurring words worked well and we were able to interpret the majority of the clusters, but the analysis still has to be read in light of the following shortcomings: The part-of-speech tagger only correctly tagged around three quarters of the words. Moreover, our sampling strategy to retrieve tweets from each cluster could be improved: We randomly sample tweets that contain the word &#39;vaccine&#39; and one other word from a cluster, and since some of the clusters comprise words carrying little semantic meaning such as e.g. &#39;(to) take&#39; or &#39;yay&#39;, the sampled tweets did not always seem to be related to a clearly demarcated theme. Moreover, as a next step in future analyses, we would consider a multi-dimensional scaling approach to map the similarities and differences between these terms.
 
-# ASDS2:
+# ASDS2
 
 ## Research Questions
 
