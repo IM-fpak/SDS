@@ -22,14 +22,7 @@
  - [References](#references)
 
 
-
-
-
-
-
-
-
-# ASDS2: 
+# ASDS2 
   * [Research Questions](#research-questions)
   * [Methods and analytical choices](#methods-and-analytical-choices)
     + [Dataset](#dataset)
@@ -45,11 +38,6 @@
       - [Poland](#poland)
   * [References](#references)
  
-
-
-
-
-
 
 ## Introduction
 
