@@ -318,7 +318,7 @@ In this project, we set out to identify similarities and differences in the Covi
 
 Future research should explore other platforms apart from Twitter more comprehensively as our analysis indicated that a considerable portion of the anti-vaccine debate takes place on other platforms, such as wykop.pl in Poland or Telegram in the German-speaking debate. Additionally, conducting a temporal analysis might show how anti-vaccine actors, narratives, sites and relations unfold over time.
 
-## References:
+## References
 
 Airoldi, M. (2018). Ethnography and the digital fields of social media. International Journal of Social Research Methodology, 21(6), 661–673. https://doi.org/10.1080/13645579.2018.1465622
 
