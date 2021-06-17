@@ -318,7 +318,7 @@ Caliandro, A. (2017). Digital Methods for Ethnography: Analytical Concepts for E
 
 Campagnolo G.M. (2020) The Analogue Mapping. In: Social Data Science Xennials. Palgrave Macmillan, Cham. [https://doi.org/10.1007/978-3-030-60358-8\_3](https://doi.org/10.1007/978-3-030-60358-8_3)
 
-Carlsen H. and Ralund S. (2021) &quot;Computational grounded theory revisited: from computer lead to computer assisted text analysis&quot;. Working Paper. (9 pages )
+Carlsen H. and Ralund S. (2021) &quot;Computational grounded theory revisited: from computer lead to computer assisted text analysis&quot;. Working Paper.
 
 Eibensteiner, F., Ritschl, V., Nawaz, F. A., Fazel, S. S., Tsagkaris, C., Kulnik, S. T., Crutzen, R., Klager, E., Völkl-Kernstock, S., Schaden, E., Kletecka-Pulker, M., Willschke, H., &amp; Atanasov, A. G. (2021). People&#39;s Willingness to Vaccinate Against COVID-19 Despite Their Safety Concerns: Twitter Poll Analysis. Journal of medical Internet research, 23(4), e28973. [https://doi.org/10.2196/28973](https://doi.org/10.2196/28973)
 
