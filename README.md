@@ -202,7 +202,7 @@ The overarching aim of the project is to explore similarities and differences in
 
 The analysis aims to examine the topical distributions in each dataset, exploring both the ‘themes’ of the topics and degree of meaningfulness. Moreover, the performance of a hSBM (hierarchical Stochastic Block Model) will be compared to a LDA (Latent Dirichlet Allocation) to examine and evaluate possible differences in their results. 
 
-### RQ 2: What type of users partake in the covid-19 vaccine debate on Twitter?
+### RQ 2: What type of users partake in the Covid-19 vaccine debate on Twitter?
 
 This sub-question aims to utilize a combination of Active Learning and Supervised Learning to label Twitter users by classifying tweets as either being pro- or anti-vaccine. In addition to exploring the proportions of user types, the predicted labels will be integrated in the automated retweet network in the Digital Methods section. 
 
@@ -308,24 +308,43 @@ Future research should explore other platforms apart from Twitter more comprehen
 
 ## References
 
-Airoldi, M. (2018). Ethnography and the digital fields of social media. International Journal of Social Research Methodology, 21(6), 661–673. https://doi.org/10.1080/13645579.2018.1465622
+Airoldi, M. (2018). Ethnography and the digital fields of social media. International Journal of Social Research Methodology, 21(6), 661–673. [https://doi.org/10.1080/13645579.2018.1465622](https://doi.org/10.1080/13645579.2018.1465622)
 
-Caliandro, A. (2017). Digital Methods for Ethnography: Analytical Concepts for Ethnographers Exploring Social Media Environments. Journal of Contemporary Ethnography, 089124161770296. https://doi.org/10.1177/0891241617702960
+Babones, S. (2015). Interpretive Quantitative Methods for the Social Sciences. Sociology, 50(3), 453–469. [https://doi.org/10.1177/0038038515583637](https://doi.org/10.1177/0038038515583637)
 
-Eibensteiner, F., Ritschl, V., Nawaz, F. A., Fazel, S. S., Tsagkaris, C., Kulnik, S. T., Crutzen, R., Klager, E., Völkl-Kernstock, S., Schaden, E., Kletecka-Pulker, M., Willschke, H., &amp; Atanasov, A. G. (2021). People&#39;s Willingness to Vaccinate Against COVID-19 Despite Their Safety Concerns: Twitter Poll Analysis. Journal of medical Internet research, 23(4), e28973. https://doi.org/10.2196/28973
+Brooker, P., Barnett, J., &amp; Cribbin, T. (2016). Doing social media analytics. Big Data &amp; Society, 3(2), 205395171665806. [https://doi.org/10.1177/2053951716658060](https://doi.org/10.1177/2053951716658060)
+
+Caliandro, A. (2017). Digital Methods for Ethnography: Analytical Concepts for Ethnographers Exploring Social Media Environments. Journal of Contemporary Ethnography, 089124161770296. [https://doi.org/10.1177/0891241617702960](https://doi.org/10.1177/0891241617702960)
+
+Campagnolo G.M. (2020) The Analogue Mapping. In: Social Data Science Xennials. Palgrave Macmillan, Cham. [https://doi.org/10.1007/978-3-030-60358-8\_3](https://doi.org/10.1007/978-3-030-60358-8_3)
+
+Carlsen H. and Ralund S. (2021) &quot;Computational grounded theory revisited: from computer lead to computer assisted text analysis&quot;. Working Paper. (9 pages )
+
+Eibensteiner, F., Ritschl, V., Nawaz, F. A., Fazel, S. S., Tsagkaris, C., Kulnik, S. T., Crutzen, R., Klager, E., Völkl-Kernstock, S., Schaden, E., Kletecka-Pulker, M., Willschke, H., &amp; Atanasov, A. G. (2021). People&#39;s Willingness to Vaccinate Against COVID-19 Despite Their Safety Concerns: Twitter Poll Analysis. Journal of medical Internet research, 23(4), e28973. [https://doi.org/10.2196/28973](https://doi.org/10.2196/28973)
+
+Fuhse, J., Stuhler, O., Riebling, J., &amp; Martin, J. L. (2020). Relating social and symbolic relations in quantitative text analysis. A study of parliamentary discourse in the Weimar Republic. Poetics, 78, 101363. [https://doi.org/10.1016/j.poetic.2019.04.004](https://doi.org/10.1016/j.poetic.2019.04.004)
+
+Gerlach, M., Peixoto, T. P., &amp; Altmann, E. G. (2018). A network approach to topic models. Science Advances, 4(7), eaaq1360. https://doi.org/10.1126/sciadv.aaq1360
 
 Islam, M. S., Kamal, A. M., Kabir, A., Southern, D. L., Khan, S. H., Hasan, S., Sarkar, T., Sharmin, S., Das, S., Roy, T., Harun, M., Chughtai, A. A., Homaira, N., &amp; Seale, H. (2021). COVID-19 vaccine rumors and conspiracy theories: The need for cognitive inoculation against misinformation to improve vaccine adherence. PloS one, 16(5), e0251605.[https://doi.org/10.1371/journal.pone.0251605](https://doi.org/10.1371/journal.pone.0251605)
 
-Krieg, L., Berning, M. &amp; Hardon, A. (2017). Anthropology with algorithms?: An exploration of online drug knowledge using digital methods. Medicine Anthropology Theory | An open-access journal in the anthropology of health illness and medicine. 4. 21. 10.17157/mat.4.3.458.
+Kozinets, R. (2019). Netnography: The Essential Guide to Qualitative Social Media Research (Third ed.). SAGE Publications Ltd.
+
+Krieg, L., Berning, M. &amp; Hardon, A. (2017). Anthropology with algorithms?: An exploration of online drug knowledge using digital methods. Medicine Anthropology Theory | An open-access journal in the anthropology of health illness and medicine. 4. 21. https://doi.org/10.17157/mat.4.3.458
+
+MacQueen, K. M., McLellan, E., Kay, K., &amp; Milstein, B. (1998). Codebook Development for Team-Based Qualitative Analysis. CAM Journal, 10(2), 31–36. https://doi.org/10.1177/1525822x980100020301
+
+Marcus, G. (1995). Ethnography in/of the World System: The Emergence of Multi-Sited Ethnography. Annual Review of Anthropology, 24, 95-117. Retrieved June 17, 2021, from [http://www.jstor.org/stable/2155931](http://www.jstor.org/stable/2155931)
+
+Marres, N., &amp; Gerlitz, C. (2016). Interface Methods: Renegotiating Relations between Digital Social Research, STS and Sociology. The Sociological Review, 64(1), 21–46. https://doi.org/10.1111/1467-954x.12314
+
+Munk, A. K. (2019). Four Styles of Quali-Quantitative Analysis. Nordicom Review, 40(s1), 159–176. https://doi.org/10.2478/nor-2019-0020
 
 Puri, N., Coomes, E. A., Haghbayan, H., &amp; Gunaratne, K. (2020). Social media and vaccine hesitancy: new updates for the era of COVID-19 and globalized infectious diseases. Human vaccines &amp; immunotherapeutics, 16(11), 2586–2593. [https://doi.org/10.1080/21645515.2020.1780846](https://doi.org/10.1080/21645515.2020.1780846)
 
+Rafail, P. (2017). Nonprobability Sampling and Twitter. Social Science Computer Review, 36(2), 195–211. https://doi.org/10.1177/0894439317709431
+
 Rogers, R., &amp; Marres, N. (2000). Landscaping climate change: a mapping technique for understanding science and technology debates on the World Wide Web. Public Understanding of Science, 9(2), 141–163. [https://doi.org/10.1088/0963-6625/9/2/304](https://doi.org/10.1088/0963-6625/9/2/304)
 
-Rosenberg, H., Syed, S., &amp; Rezaie, S. (2020). The Twitter pandemic: The critical role of Twitter in the dissemination of medical information and misinformation during the COVID-19 pandemic. CJEM, 22(4), 418–421. [https://doi.org/10.1017/cem.2020.361](https://doi.org/10.1017/cem.2020.361)
-
-Singh, L., Bansal, S., Bode, L., Budak, C., Chi, G., Kawintiranon, K., Padden, C., Vanarsdall, R., Vraga, E., &amp; Wang, Y. (2020). A first look at COVID-19 information and misinformation sharing on Twitter. ArXiv, arXiv:2003.13907v1.
-
-Tsao, S. F., Chen, H., Tisseverasinghe, T., Yang, Y., Li, L., &amp; Butt, Z. A. (2021). What social media told us in the time of COVID-19: a scoping review. The Lancet. Digital health, 3(3), e175–e194. [https://doi.org/10.1016/S2589-7500(20)30315-0](https://doi.org/10.1016/S2589-7500(20)30315-0)
-
 Venturini, T., Bounegru, L., Gray, J., &amp; Rogers, R. (2018). A Reality Check(-List) for Digital Methods. SSRN Electronic Journal. Published. [https://doi.org/10.2139/ssrn.3168664](https://doi.org/10.2139/ssrn.3168664)
+
