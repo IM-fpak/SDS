@@ -235,6 +235,8 @@ Initially, the ‘superintendent’ module is used to deploy an active learning 
 
 Subsequent to active learning, the labelled datasets are used for text classification, as the outcome variable (label) is categorical. The text classification is conducted through supervised learning, comparing several classifiers with the goal of finding the optimal model for each language-specific dataset. As seen in figure A, the labeled datasets revealed unbalanced classes and thus, stratified 80:20 splits of the datasets are done to preserve the class proportion of the datasets in the training and test data, attempting to avoid overfitting. After creating the train and test sets for each county, the following multinomial classifiers are implemented: Logistic Regression, Naïve Bayes, SVM, Bagging, and Boosting. The classifiers' hyperparameters are tuned on each of the country-specific datasets to ensure optimal performance. To enable the classifiers to process natural language, the raw data is vectorized to create numerical representations using either document-term matrix or tf-idf, as specified in the vectorizer parameters  in the model pipelines.  
 
+<img src="https://user-images.githubusercontent.com/86028042/122384872-68681000-cf6c-11eb-8d59-c05dbff5823d.png">
+
 The overall strategy for the hyperparameter search is a ‘bounded exploration’, in which the initial search consists of searching (exponentially) for fewer parameters with a wider range of values. Subsequently, an iterative process of parameter-tuning is performed to narrow in on the optimal values in the search space, for all classifiers and all datasets. The evaluation criteria of the 5-fold cross-validation is assessed on the f1_micro score, as the default of evaluating on accuracy could potentially lead to models biased towards the majority class. Moreover, the weighted f1-score balances precision and recall and accounts for the expected imbalanced class proportions by aggregating the contributions of all classes to compute the average metric. Lastly, it should be noted that the vectorizer parameter of whether to remove English stop words was included as manual inspection of the datasets indicated that ‘trash’ tweets were often irrelevant English tweets, and thus removing stop words might improve classification of these. 
 
 
@@ -244,17 +246,13 @@ The overall strategy for the hyperparameter search is a ‘bounded exploration�
 
 Based on manual inspection and qualitative evaluations of the meaningfulness of the topics of each of the datasets, the hSBM was found to outperform the LDA which generally produced conglomerates and  ‘junk’ topics (appendix pdf 2). While the qualitative assessment revealed that junk topics were also present in the hSBM, the majority of the topics were meaningful. Further details of the exact topic summarizations and country specific evaluations should be found in appendix pdf 2. The topical distributions and qualitative evaluation of the individual topics are visualized in figures B-D. In general, the hSBM appeared to yield better results for the German dataset, with the majority of the topics being meaningful. In contrast, in the Danish and Polish topic models, the meaningless topics were among the most prevalent topics. However, the qualitative evaluation of the individual topics predominantly yielded meaningful insights of the topics associated with the Covid-19 vaccine debate on Twitter for all three countries.
 
-
-<img src="https://user-images.githubusercontent.com/86028042/122355788-7a3cb980-cf52-11eb-9a75-d2871b78eb97.png">
-<img src="https://user-images.githubusercontent.com/86028042/122355789-7ad55000-cf52-11eb-9978-f80a65c9d1f6.png">
-<img src="https://user-images.githubusercontent.com/86028042/122355791-7ad55000-cf52-11eb-8f72-6301fbb28599.png">
+<img src="https://user-images.githubusercontent.com/86028042/122384875-68681000-cf6c-11eb-8bdf-2e9f05ac20f7.png">
+<img src="https://user-images.githubusercontent.com/86028042/122384878-6900a680-cf6c-11eb-957e-b7f37e312057.png">
+<img src="https://user-images.githubusercontent.com/86028042/122384868-6736e300-cf6c-11eb-8bcc-f309c5fca86e.png">
 
 
 ### Text classification
 The best models were chosen based on an evaluation combining performance metrics and the aim of the task. Thus, keeping the objective of labelling pro- and anti-vaccine users in mind, in addition to accuracy and AUC, the best models were selected in relation to best balance between the f1-scores for the pro- and anti-vaccine labels. The specific search grids, final parameters of the best models, and evaluation metrics are found in appendix code 14. The best models for each of the countries were fitted on the entire labeled datasets (respective to the country) prior to classifying the unlabeled tweets. The predicted class proportions are depicted in figures E-G. The classifier performance was evaluated by randomly sampling from the predictions and manually labeling the sampled tweets to assess the quality of the predictions, yielding the following  metrics: 
-
-
-<img src="https://user-images.githubusercontent.com/86028042/122357281-e370fc80-cf53-11eb-8872-3c8ff0d49e32.png"> 
 
 
 <img src="https://user-images.githubusercontent.com/86028042/122357283-e4099300-cf53-11eb-8d9e-025226bc7885.png"> 
