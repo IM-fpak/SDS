@@ -313,9 +313,11 @@ Brooker, P., Barnett, J., &amp; Cribbin, T. (2016). Doing social media analytics
 
 Caliandro, A. (2017). Digital Methods for Ethnography: Analytical Concepts for Ethnographers Exploring Social Media Environments. Journal of Contemporary Ethnography, 089124161770296. [https://doi.org/10.1177/0891241617702960](https://doi.org/10.1177/0891241617702960)
 
-Campagnolo G.M. (2020) The Analogue Mapping. In: Social Data Science Xennials. Palgrave Macmillan, Cham. [https://doi.org/10.1007/978-3-030-60358-8\_3](https://doi.org/10.1007/978-3-030-60358-8_3)
+Campagnolo G.M. (2020). The Analogue Mapping. In: Social Data Science Xennials. Palgrave Macmillan, Cham. [https://doi.org/10.1007/978-3-030-60358-8\_3](https://doi.org/10.1007/978-3-030-60358-8_3)
 
-Carlsen H. and Ralund S. (2021) &quot;Computational grounded theory revisited: from computer lead to computer assisted text analysis&quot;. Working Paper.
+Carlsen H. & Ralund S. (2021) &quot;Computational grounded theory revisited: from computer lead to computer assisted text analysis&quot;. Working Paper.
+
+Decuypere, M. (2019). Visual Network Analysis: a qualitative method for researching sociomaterial practice. Qualitative Research, 20(1), 73–90. https://doi.org/10.1177/1468794118816613
 
 Eibensteiner, F., Ritschl, V., Nawaz, F. A., Fazel, S. S., Tsagkaris, C., Kulnik, S. T., Crutzen, R., Klager, E., Völkl-Kernstock, S., Schaden, E., Kletecka-Pulker, M., Willschke, H., &amp; Atanasov, A. G. (2021). People&#39;s Willingness to Vaccinate Against COVID-19 Despite Their Safety Concerns: Twitter Poll Analysis. Journal of medical Internet research, 23(4), e28973. [https://doi.org/10.2196/28973](https://doi.org/10.2196/28973)
 
@@ -323,7 +325,9 @@ Fuhse, J., Stuhler, O., Riebling, J., &amp; Martin, J. L. (2020). Relating socia
 
 Gerlach, M., Peixoto, T. P., &amp; Altmann, E. G. (2018). A network approach to topic models. Science Advances, 4(7), eaaq1360. https://doi.org/10.1126/sciadv.aaq1360
 
-Islam, M. S., Kamal, A. M., Kabir, A., Southern, D. L., Khan, S. H., Hasan, S., Sarkar, T., Sharmin, S., Das, S., Roy, T., Harun, M., Chughtai, A. A., Homaira, N., &amp; Seale, H. (2021). COVID-19 vaccine rumors and conspiracy theories: The need for cognitive inoculation against misinformation to improve vaccine adherence. PloS one, 16(5), e0251605.[https://doi.org/10.1371/journal.pone.0251605](https://doi.org/10.1371/journal.pone.0251605)
+Islam, M. S., Kamal, A. M., Kabir, A., Southern, D. L., Khan, S. H., Hasan, S., Sarkar, T., Sharmin, S., Das, S., Roy, T., Harun, M., Chughtai, A. A., Homaira, N., &amp; Seale, H. (2021). COVID-19 vaccine rumors and conspiracy theories: The need for cognitive inoculation against misinformation to improve vaccine adherence. PloS one, 16(5), e0251605. [https://doi.org/10.1371/journal.pone.0251605](https://doi.org/10.1371/journal.pone.0251605)
+
+King, G., Lam, P., & Roberts, M. E. (2017). Computer-Assisted Keyword and Document Set Discovery from Unstructured Text. American Journal of Political Science, 61(4), 971–988. https://doi.org/10.1111/ajps.12291
 
 Kozinets, R. (2019). Netnography: The Essential Guide to Qualitative Social Media Research (Third ed.). SAGE Publications Ltd.
 
@@ -335,7 +339,7 @@ Marcus, G. (1995). Ethnography in/of the World System: The Emergence of Multi-Si
 
 Marres, N., &amp; Gerlitz, C. (2016). Interface Methods: Renegotiating Relations between Digital Social Research, STS and Sociology. The Sociological Review, 64(1), 21–46. https://doi.org/10.1111/1467-954x.12314
 
-Munk, A. K. (2019). Four Styles of Quali-Quantitative Analysis. Nordicom Review, 40(s1), 159–176. https://doi.org/10.2478/nor-2019-0020
+Munk, A. K. (2019). Four Styles of Quali-Quantitative Analysis. Nordicom Review, 40(s1), 159–176. [https://doi.org/10.2478/nor-2019-0020](https://doi.org/10.1080/21645515.2020.1780846)
 
 Puri, N., Coomes, E. A., Haghbayan, H., &amp; Gunaratne, K. (2020). Social media and vaccine hesitancy: new updates for the era of COVID-19 and globalized infectious diseases. Human vaccines &amp; immunotherapeutics, 16(11), 2586–2593. [https://doi.org/10.1080/21645515.2020.1780846](https://doi.org/10.1080/21645515.2020.1780846)
 
