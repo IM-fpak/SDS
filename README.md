@@ -51,15 +51,15 @@ On social media, the Covid-19 vaccination programs have been widely discussed si
 
 Methodologically, the project combines computer-assisted qualitative and quantitative methods in order to explore the broad landscape of practices through which actors and digital platforms shape the phenomenon of vaccine hesitancy (Caliandro, 2017). We explore this phenomenon by answering four sub-questions:
 
-### RQ1: Which narratives do anti-vaccine actors invoke in relation to the public issue of Covid-19 vaccines?
+**RQ1: Which narratives do anti-vaccine actors invoke in relation to the public issue of Covid-19 vaccines?**
 
 We conduct a netnographic campaign in the form of what Airoldi (2018) calls meta-fieldwork by following anti-vaccine ideas and keywords across platforms in order to identify key actors and the narratives. Our immersive engagement also accounts for modes in which these actors related to one another and we explore these relations by creating digital trace-based manual networks that allow us to analyse the second sub-question:
 
-### RQ2: On which platforms are key anti-vaccine actors present and how do they relate to each other through digital traces?
+**RQ2: On which platforms are key anti-vaccine actors present and how do they relate to each other through digital traces?**
 
 Shifting the analytical focus from a cross-platform perspective to the microblogging platform Twitter, we ask:
 
-### RQ3: Where are anti-vaccine actors situated in the broader social network of users contributing to the general Covid-19 vaccine debate on Twitter?
+**RQ3: Where are anti-vaccine actors situated in the broader social network of users contributing to the general Covid-19 vaccine debate on Twitter?**
 
 We investigate anti-vaccine actors&#39; positions by an exploratory visual analysis of retweet networks. Finally, we are interested in the content of tweets relating to the Covid-19 vaccine debate:
 
