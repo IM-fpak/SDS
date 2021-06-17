@@ -33,9 +33,6 @@
   * [Results (13)](#results)
     + [Topic models (15)](#topic-models-1)
     + [Text classification (16)](#text-classification)
-      - [Denmark (13)](#denmark)
-      - [Germany (15)](#germany)
-      - [Poland (16)](#poland)
   * [References](#references)
  
 
