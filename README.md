@@ -1,11 +1,9 @@
 # Digital Methods
-
-- [Digital Methods](#digital-methods)
   * [Introduction](#introduction)
-    + [**RQ1:** Which narratives do anti-vaccine actors invoke in relation to the public issue of Covid-19 vaccines?](#--rq1----which-narratives-do-anti-vaccine-actors-invoke-in-relation-to-the-public-issue-of-covid-19-vaccines-)
-    + [**RQ2:** On which platforms are key anti-vaccine actors present and how do they relate to each other through digital traces?](#--rq2----on-which-platforms-are-key-anti-vaccine-actors-present-and-how-do-they-relate-to-each-other-through-digital-traces-)
-    + [**RQ3:** Where are anti-vaccine actors situated in the broader social network of users contributing to the general Covid-19 vaccine debate on Twitter?](#--rq3----where-are-anti-vaccine-actors-situated-in-the-broader-social-network-of-users-contributing-to-the-general-covid-19-vaccine-debate-on-twitter-)
-    + [**RQ4:** In which semantic contexts is the term &#39;vaccine&#39; currently used on Twitter?](#--rq4----in-which-semantic-contexts-is-the-term---39-vaccine--39--currently-used-on-twitter-)
+    + [RQ1: Which narratives do anti-vaccine actors invoke in relation to the public issue of Covid-19 vaccines?](#rq1--which-narratives-do-anti-vaccine-actors-invoke-in-relation-to-the-public-issue-of-covid-19-vaccines-)
+    + [RQ2: On which platforms are key anti-vaccine actors present and how do they relate to each other through digital traces?](#rq2--on-which-platforms-are-key-anti-vaccine-actors-present-and-how-do-they-relate-to-each-other-through-digital-traces-)
+    + [RQ3: Where are anti-vaccine actors situated in the broader social network of users contributing to the general Covid-19 vaccine debate on Twitter?](#rq3--where-are-anti-vaccine-actors-situated-in-the-broader-social-network-of-users-contributing-to-the-general-covid-19-vaccine-debate-on-twitter-)
+    + [RQ4: In which semantic contexts is the term &#39;vaccine&#39; currently used on Twitter?](#rq4--in-which-semantic-contexts-is-the-term---39-vaccine--39--currently-used-on-twitter-)
   * [Netnography](#netnography)
     + [Key findings](#key-findings)
     + [Discussion](#discussion)
@@ -31,7 +29,7 @@
     + [Text Classification](#text-classification)
   * [Results](#results)
     + [Topic models](#topic-models-1)
-    + [**Text classification**](#--text-classification--)
+    + [Text classification](#text-classification)
       - [Denmark](#denmark)
       - [Germany](#germany)
       - [Poland](#poland)
@@ -42,7 +40,9 @@
   * [Conclusion](#conclusion)
   * [References:](#references-)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
 
 
 ## Introduction
@@ -51,19 +51,19 @@ On social media, the Covid-19 vaccination programs have been widely discussed si
 
 Methodologically, the project combines computer-assisted qualitative and quantitative methods in order to explore the broad landscape of practices through which actors and digital platforms shape the phenomenon of vaccine hesitancy (Caliandro, 2017). We explore this phenomenon by answering four sub-questions:
 
-### **RQ1:** Which narratives do anti-vaccine actors invoke in relation to the public issue of Covid-19 vaccines?
+### RQ1: Which narratives do anti-vaccine actors invoke in relation to the public issue of Covid-19 vaccines?
 
 We conduct a netnographic campaign in the form of what Airoldi (2018) calls meta-fieldwork by following anti-vaccine ideas and keywords across platforms in order to identify key actors and the narratives. Our immersive engagement also accounts for modes in which these actors related to one another and we explore these relations by creating digital trace-based manual networks that allow us to analyse the second sub-question:
 
-### **RQ2:** On which platforms are key anti-vaccine actors present and how do they relate to each other through digital traces?
+### RQ2: On which platforms are key anti-vaccine actors present and how do they relate to each other through digital traces?
 
 Shifting the analytical focus from a cross-platform perspective to the microblogging platform Twitter, we ask:
 
-### **RQ3:** Where are anti-vaccine actors situated in the broader social network of users contributing to the general Covid-19 vaccine debate on Twitter?
+### RQ3: Where are anti-vaccine actors situated in the broader social network of users contributing to the general Covid-19 vaccine debate on Twitter?
 
 We investigate anti-vaccine actors&#39; positions by an exploratory visual analysis of retweet networks. Finally, we are interested in the content of tweets relating to the Covid-19 vaccine debate:
 
-### **RQ4:** In which semantic contexts is the term &#39;vaccine&#39; currently used on Twitter?
+### RQ4: In which semantic contexts is the term &#39;vaccine&#39; currently used on Twitter?
 
 In order to answer this question, we create semantic networks and qualitatively analyse the content of tweets assigned to clusters of co-occurring words.
 
@@ -254,7 +254,7 @@ Based on manual inspection and qualitative evaluations of the meaningfulness of 
 <img src="https://user-images.githubusercontent.com/86028042/122355791-7ad55000-cf52-11eb-8f72-6301fbb28599.png">
 
 
-### **Text classification**
+### Text classification
 The best models were chosen based on an evaluation combining performance metrics and the aim of the task. Thus, keeping the objective of labelling vaxxers and anti-vaxxers in mind, in addition to accuracy and AUC the best models were selected in relation to best balance between the f1-scores for the vaxx and anti-vaxx labels. The specific search grids, final parameters of the best models, and evaluation metrics are found in appendix XX. The best models for each of the countries were fitted on the entire labeled datasets (respective to the country) prior to classifying the unlabeled tweets. The predicted class proportions are depicted in figure XX. The classifier performance was evaluated by randomly sampling from the predictions and manually labeling the sampled tweets to assess the quality of the predictions, yielding the following metrics:
 
 <img src="https://user-images.githubusercontent.com/86028042/122357281-e370fc80-cf53-11eb-8872-3c8ff0d49e32.png"> 
