@@ -1,5 +1,50 @@
 # Digital Methods
 
+- [Digital Methods](#digital-methods)
+  * [Introduction](#introduction)
+    + [**RQ1:** Which narratives do anti-vaccine actors invoke in relation to the public issue of Covid-19 vaccines?](#--rq1----which-narratives-do-anti-vaccine-actors-invoke-in-relation-to-the-public-issue-of-covid-19-vaccines-)
+    + [**RQ2:** On which platforms are key anti-vaccine actors present and how do they relate to each other through digital traces?](#--rq2----on-which-platforms-are-key-anti-vaccine-actors-present-and-how-do-they-relate-to-each-other-through-digital-traces-)
+    + [**RQ3:** Where are anti-vaccine actors situated in the broader social network of users contributing to the general Covid-19 vaccine debate on Twitter?](#--rq3----where-are-anti-vaccine-actors-situated-in-the-broader-social-network-of-users-contributing-to-the-general-covid-19-vaccine-debate-on-twitter-)
+    + [**RQ4:** In which semantic contexts is the term &#39;vaccine&#39; currently used on Twitter?](#--rq4----in-which-semantic-contexts-is-the-term---39-vaccine--39--currently-used-on-twitter-)
+  * [Netnography](#netnography)
+    + [Key findings](#key-findings)
+    + [Discussion](#discussion)
+  * [Network Analysis](#network-analysis)
+    + [Manual Networks](#manual-networks)
+      - [Key findings](#key-findings-1)
+  * [Twitter data collection](#twitter-data-collection)
+  * [Automated retweet network](#automated-retweet-network)
+    + [Key findings](#key-findings-2)
+    + [Discussion](#discussion-1)
+  * [Content Analysis](#content-analysis)
+    + [Key findings](#key-findings-3)
+    + [Discussion](#discussion-2)
+- [ASDS2:](#asds2-)
+  * [Research Questions](#research-questions)
+    + [RQ 1: What is the topical distribution of Tweets on the Covid-19 vaccine debate?](#rq-1--what-is-the-topical-distribution-of-tweets-on-the-covid-19-vaccine-debate-)
+    + [RQ 2: What type of users partake in the covid-19 vaccine debate on Twitter?](#rq-2--what-type-of-users-partake-in-the-covid-19-vaccine-debate-on-twitter-)
+  * [Methods and analytical choices](#methods-and-analytical-choices)
+    + [Dataset](#dataset)
+      - [Word2Vec](#word2vec)
+      - [Preprocessing](#preprocessing)
+    + [Topic models](#topic-models)
+    + [Text Classification](#text-classification)
+  * [Results](#results)
+    + [Topic models](#topic-models-1)
+    + [**Text classification**](#--text-classification--)
+      - [Denmark](#denmark)
+      - [Germany](#germany)
+      - [Poland](#poland)
+  * [Quali-quantitative integration across methods](#quali-quantitative-integration-across-methods)
+    + [Interplay of netnography, network analysis and content analysis](#interplay-of-netnography--network-analysis-and-content-analysis)
+    + [Computationally-led vs. computationally-assisted approaches to the analysis of content](#computationally-led-vs-computationally-assisted-approaches-to-the-analysis-of-content)
+    + [Overall methodological considerations](#overall-methodological-considerations)
+  * [Conclusion](#conclusion)
+  * [References:](#references-)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Introduction
 
 On social media, the Covid-19 vaccination programs have been widely discussed since the first Covid-19 vaccines were approved for use in late 2020. Recent studies of this debate vaccines have paid particular attention to vaccine hesitancy (Eibensteiner et al., 2021; Islam et al., 2021; Puri et al., 2020) and in our project, we follow a similar research interest: We map the public issue of Covid-19 vaccine hesitancy for three countries, Denmark, Germany and Poland, and explore intra-national differences and similarities between these public debates. The idea for cross-country comparison is rooted in our nationalities and we argue that the language and country specific knowledge is crucial throughout the process for us to make informed analytical decisions. Furthermore, pursuing this research allows us to generate interesting new insights, particularly a direct comparison of how the collective phenomenon of vaccine hesitancy is constituted in three different countries. Thus, our project is aimed to answer the following overarching research question: _What are the similarities and differences in the Covid-19 anti-vaccine debate between Denmark, Germany and Poland?_
@@ -140,6 +185,7 @@ The codebook we used for this qualitative coding was inspired by the codebook pr
 Below, we present the three semantic networks containing the word lemmas in the original languages (graphs 8-10). A translation and more extensive description of the clusters can be found in the appendix (see appendix xx).
 
 
+
 In the Polish semantic network, the anti-vaccine narratives are found mainly in three of the five clusters (cluster &#39;Covid-19 tests&#39;, &#39;Health risks&#39;, &#39;Death and disease&#39;), however in none of them it is a dominating part of the debate. Anti-vaccine tweets were most prevalent in cluster &#39;Death and disease&#39; consisting of tweets discussing vaccine-related deaths, diseases and adverse health effects. The qualitative reading revealed that in all clusters, the present anti-vaccine tweets most often refer to conspiracy theories or conceptualize vaccines as a medical experiment. A common theme, appearing in all clusters, was the organization of the Polish vaccination program; and all clusters are related by the theme of personal experiences with vaccines.
 
 
@@ -208,25 +254,29 @@ Based on manual inspection and qualitative evaluations of the meaningfulness of 
 ### **Text classification**
 The best models were chosen based on an evaluation combining performance metrics and the aim of the task. Thus, keeping the objective of labelling vaxxers and anti-vaxxers in mind, in addition to accuracy and AUC the best models were selected in relation to best balance between the f1-scores for the vaxx and anti-vaxx labels. The specific search grids, final parameters of the best models, and evaluation metrics are found in appendix XX. The best models for each of the countries were fitted on the entire labeled datasets (respective to the country) prior to classifying the unlabeled tweets. The predicted class proportions are depicted in figure XX. The classifier performance was evaluated by randomly sampling from the predictions and manually labeling the sampled tweets to assess the quality of the predictions, yielding the following metrics:
 
-**Insert visual : ACTIVE LEARNING**
+<img src="https://user-images.githubusercontent.com/86028042/122357281-e370fc80-cf53-11eb-8872-3c8ff0d49e32.png"> 
+
 
 #### Denmark 
 
-**Insert visual**
+<img src="https://user-images.githubusercontent.com/86028042/122357283-e4099300-cf53-11eb-8d9e-025226bc7885.png"> 
 
 The Danish SVM-classifier had an accuracy of .58 and a weighted f1-score of .62, possibly due to unbalanced classes. Precision, recall, and f1-scores indicate a tendency of predicting the label &#39;trash&#39; with a high recall score of .94, but only a precision of .62, while the &#39;neutral&#39; class appears to be impacted by this, having a recall of only .32 and precision of .14. Hence, the poor performance reflected in the accuracy might result from the classifier predictions being biased towards the &#39;trash&#39; class. However, in relation to the main objective to predict &#39;anti-vaxx&#39; and &#39;vaxx&#39; labels, the f1-scores of .65 and .59 are relatively good.
 
 #### Germany 
 
-**Insert visual**
+<img src="https://user-images.githubusercontent.com/86028042/122357275-e2d86600-cf53-11eb-8ab4-0770cc383559.png"> 
 
 The German SVM-classifier had an accuracy of .73 and a weighted f1-score of .72, thus approximately even. The f1-score for both the &#39;vaxx&#39; and &#39;anti-vaxx&#39; classes were .80, thereby indicating superior performance of the classifier on these classes in comparison to &#39;neutral&#39; (.57) and &#39;trash&#39; (.76).
 
 #### Poland 
 
-**Insert visual**
+<img src="https://user-images.githubusercontent.com/86028042/122357276-e370fc80-cf53-11eb-9f7d-a0b7e1ce8000.png"> 
 
 The Polish SVM-classifier yielded both a low accuracy (.36) and a low weighted f1-score (.39). Inspection of the evaluation metrics indicate unbalanced classes and i.e. the weighted precision is .57 in comparison to the weighted recall of .35. Moreover, the &#39;neutral&#39; class had a high precision of 0.68 and a low recall of .26 and in combination with visual inspection of the confusion matrix, this may suggest a bias towards the &#39;neutral&#39; class, supported further by the highly unbalanced class proportions of the predicted labels (figure XX).
+
+<img src="https://user-images.githubusercontent.com/86028042/122357279-e370fc80-cf53-11eb-887e-8c38254caca8.png">  
+
 
 Overall, the results of the classifier evaluations were mixed and especially the polish classifier performed poorly. This could be caused by various factors including (bad) data quality, manual errors during Active Learning, and bias. Thus, future steps should prioritize bias detection and correction. This should focus on correcting proportional estimates aggregated from the respective classifiers by estimating the misclassification probabilities and using these to correct the raw estimates of the class proportions. After using a new labelled test set to calculate the specific misclassification probabilities between each pair of classifications, the resulting confusion matrix should be used to find the corrective frequency (with respective to the individual classes) by taking the number of positive predictions (pos^) and multiplying it with the true positive rate (TPR=TP/(TP+FP)), then subtract the number of negative predictions (neg^) multiplied by the false negative rate (FNR=FN/(FN+TN), and finally dividing by the total number of predictions in the new test set. However, as this was not within the scope of the initial project, the results should be interpreted with caution.
 
