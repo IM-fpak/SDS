@@ -1,14 +1,12 @@
 # Digital Methods
   * [Introduction](#introduction)
-    + [RQ1: Which narratives do anti-vaccine actors invoke in relation to the public issue of Covid-19 vaccines?](#rq1--which-narratives-do-anti-vaccine-actors-invoke-in-relation-to-the-public-issue-of-covid-19-vaccines-)
-    + [RQ2: On which platforms are key anti-vaccine actors present and how do they relate to each other through digital traces?](#rq2--on-which-platforms-are-key-anti-vaccine-actors-present-and-how-do-they-relate-to-each-other-through-digital-traces-)
-    + [RQ3: Where are anti-vaccine actors situated in the broader social network of users contributing to the general Covid-19 vaccine debate on Twitter?](#rq3--where-are-anti-vaccine-actors-situated-in-the-broader-social-network-of-users-contributing-to-the-general-covid-19-vaccine-debate-on-twitter-)
-    + [RQ4: In which semantic contexts is the term &#39;vaccine&#39; currently used on Twitter?](#rq4--in-which-semantic-contexts-is-the-term---39-vaccine--39--currently-used-on-twitter-)
-  * [Netnography](#netnography)
-    + [Key findings](#key-findings)
-    + [Discussion](#discussion)
+   * [Netnography](#netnography)
+     + [Key findings](#key-findings)
+     + [Discussion](#discussion)
   * [Network Analysis](#network-analysis)
     + [Manual Networks](#manual-networks)
+      - [Key findings](#key-findings-1)
+    + [Automated retweet network](#automated-retweet-network)
       - [Key findings](#key-findings-1)
   * [Twitter data collection](#twitter-data-collection)
   * [Automated retweet network](#automated-retweet-network)
@@ -17,10 +15,16 @@
   * [Content Analysis](#content-analysis)
     + [Key findings](#key-findings-3)
     + [Discussion](#discussion-2)
-- [ASDS2:](#asds2-)
+  * [Quali-quantitative integration across methods](#quali-quantitative-integration-across-methods)
+    + [Interplay of netnography, network analysis and content analysis](#interplay-of-netnography--network-analysis-and-content-analysis)
+    + [Computationally-led vs. computationally-assisted approaches to the analysis of content](#computationally-led-vs-computationally-assisted-approaches-to-the-analysis-of-content)
+    + [Overall methodological considerations](#overall-methodological-considerations)
+  * [Conclusion](#conclusion)
+  * [References](#references-)
+
+
+# ASDS2: 
   * [Research Questions](#research-questions)
-    + [RQ 1: What is the topical distribution of Tweets on the Covid-19 vaccine debate?](#rq-1--what-is-the-topical-distribution-of-tweets-on-the-covid-19-vaccine-debate-)
-    + [RQ 2: What type of users partake in the covid-19 vaccine debate on Twitter?](#rq-2--what-type-of-users-partake-in-the-covid-19-vaccine-debate-on-twitter-)
   * [Methods and analytical choices](#methods-and-analytical-choices)
     + [Dataset](#dataset)
       - [Word2Vec](#word2vec)
@@ -33,12 +37,8 @@
       - [Denmark](#denmark)
       - [Germany](#germany)
       - [Poland](#poland)
-  * [Quali-quantitative integration across methods](#quali-quantitative-integration-across-methods)
-    + [Interplay of netnography, network analysis and content analysis](#interplay-of-netnography--network-analysis-and-content-analysis)
-    + [Computationally-led vs. computationally-assisted approaches to the analysis of content](#computationally-led-vs-computationally-assisted-approaches-to-the-analysis-of-content)
-    + [Overall methodological considerations](#overall-methodological-considerations)
-  * [Conclusion](#conclusion)
-  * [References:](#references-)
+  * [References](#references-)
+ 
 
 
 
