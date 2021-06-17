@@ -20,7 +20,7 @@
     + [Computationally-led vs. computationally-assisted approaches to the analysis of content](#computationally-led-vs-computationally-assisted-approaches-to-the-analysis-of-content)
     + [Overall methodological considerations](#overall-methodological-considerations)
   * [Conclusion](#conclusion)
-  * [References](#references-)
+  * [References](#references)
 
 
 # ASDS2: 
