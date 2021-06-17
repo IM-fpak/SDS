@@ -64,15 +64,19 @@ To analyse the key actors and their relations to each other (Campagnolo 2020, Ko
 
 In the analysis of our manual networks, we find important intra-national differences:
 
-[Graph 1: manual network Germany]
+
+<img src="https://user-images.githubusercontent.com/86028042/122354236-1665c100-cf51-11eb-890b-8dda47d050a4.png">
+
 
 **Network of German-speaking actors**. During the netnography, it was very difficult to find anti-vaccine actors and discussion on mainstream social media accounts and through Google searches. An inactive anti-vaccine Facebook page led to the messaging app Telegram and the public channel @impfenmussfreiwilligbleiben which turned out to be a key site for anti-vaccine users to share content. The network is therefore centred around this Telegram channel as it shows hyperlink traces between this channel and other, mainly collective, actors such as websites, blogs, Telegram channels and media outlets. The channel acts like a curator of anti-vaccine content as the (anonymous) owners of the channel and its users select and post on the channel. In this curation of content, the users do not distinguish between legacy media outlets with alternative media sources and conspiracy theory websites as all types of sources are linked to. Moreover, links to mainstream social media platforms are very rare and Twitter does not seem to be an important site for anti-vaccine users to discuss, a relevant finding which puts the automated retweet network further down into context.
 
-[Graph 2: manual network Denmark]
+<img src="https://user-images.githubusercontent.com/86028042/122354232-15cd2a80-cf51-11eb-81f3-beed8e4b24dd.png">
+
 
 **Network of Danish-speaking actors.** In contrast,the Danish actors are spread across mainstream platforms and the discourse is driven by a few individual actors which are present on both Twitter and Facebook (see e.g. Actor 2, Actor 2 (Twitter), Actor 2 (Facebook) in graph 2). On Twitter, the central actors are highly connected to one another and retweet each other frequently. In the immersive engagement with these actors on Twitter, it became clear that some of these central actors provide a lot of resources and material, e.g. by linking to locked Google Drive or Dropbox folders. Beyond Twitter, the manual network shows a demarcation between mainstream and niche social media platforms. The niche platforms such as Rumble, Odyssey, BitChute or BitTube all have in common that there is no content moderation and users can upload any content without facing removal or the deletion of their account. These platforms form their own cluster in the network that is largely disconnected from the mainstream social media sites. The platform BitChute appeared both in the German and Polish network as well, whereas the other niche platforms are characteristic for the Danish actors.
 
-[Graph 3: manual network Poland]
+<img src="https://user-images.githubusercontent.com/86028042/122354240-16fe5780-cf51-11eb-96a8-f5f4a940fbd0.png">
+
 
 **Network of Polish-speaking actors**. The anti-vaccine debate appears to be shaped mostly by collective actors, such as right-wing, often radical media portals, for instance &quot;Nasza Polska&quot; or &quot;Polonia Christiana 24&quot;. The liberal-conservative news media website &quot;Najwyższy czas!&quot; holds a central position in Polish network, being referred to by both individuals and collective actors. Furthermore, the Facebook page &quot;Stop compulsory vaccination&quot; which is followed by 19,279 users is a key actor in the debate. However, it mostly links to other anti-vaccine actors, and its individual users do not engage actively in creating its content. Conspiracy-theory blogs take peripheral positions in the network, often referring to each other, and rarely being linked to by other actors. Lastly, the popular microblogging webpage wykop.pl is also placed in the periphery and its users refer to a wider array of sources, including direct links to official institutions.
 
