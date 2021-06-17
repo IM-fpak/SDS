@@ -102,18 +102,18 @@ To analyse the key actors and their relations to each other (Campagnolo, 2020, K
 
 In the analysis of our manual networks, we find important differences across countries:
 
-<img src="https://user-images.githubusercontent.com/86028042/122354240-16fe5780-cf51-11eb-96a8-f5f4a940fbd0.png">
+<img src="https://user-images.githubusercontent.com/86028042/122399337-fd720580-cf7a-11eb-992c-2230a0e58d11.png">
 
 **Network of Polish-speaking actors.** The anti-vaccine debate appears to be shaped mostly by collective actors, such as right-wing, often radical media portals, for instance “Nasza Polska” or “Polonia Christiana 24”. The liberal-conservative news media website “Najwyższy czas!” holds a central position in Polish network, being referred to by both individual and collective actors. Furthermore, the Facebook page “Stop compulsory vaccination” which is followed by 19,279 users is a key actor in the debate. However, it mostly links to other anti-vaccine actors, and its individual users do not engage actively in creating its content. Conspiracy-theory blogs take peripheral positions in the network, often referring to each other, and rarely being linked to by other actors. Lastly, the popular microblogging webpage wykop.pl is also placed in the periphery and its users refer to a wider array of sources, including direct links to official institutions.
 
 
 
-<img src="https://user-images.githubusercontent.com/86028042/122354236-1665c100-cf51-11eb-890b-8dda47d050a4.png">
+<img src="https://user-images.githubusercontent.com/86028042/122399335-fd720580-cf7a-11eb-9e8c-3b76fcb502c9.png">
 
 **Network of German-speaking actors.**  During the netnography, it was very difficult to find anti-vaccine actors and discussions on mainstream social media sites and through Google searches. An inactive anti-vaccine Facebook page led to the messaging app Telegram and the public channel @impfenmussfreiwilligbleiben which turned out to be a key actor. The network is therefore centred around this channel, showing hyperlink traces connecting it with other, mainly collective, actors such as websites, blogs, other Telegram channels and media outlets. The channel acts as a curator of anti-vaccine content selected and posted by the (anonymous) owners of the channel and its users. In this curation of content, the users do not distinguish between legacy media outlets and alternative media sources or conspiracy theory websites, linking to all types of sources. Moreover, links to mainstream social media platforms are very rare and Twitter does not seem to be an important site for anti-vaccine users, a relevant finding which contextualizes the automated retweet network in the following chapter. 
 
 
-<img src="https://user-images.githubusercontent.com/86028042/122354232-15cd2a80-cf51-11eb-81f3-beed8e4b24dd.png">
+<img src="https://user-images.githubusercontent.com/86028042/122399330-fc40d880-cf7a-11eb-89bf-7bba789744b4.png">
 
 **Network of Danish-speaking actors.** In contrast, the Danish actors are spread across mainstream platforms and the discourse is driven by a few individual actors which are present on both Twitter and Facebook. On Twitter, the central actors are highly connected to one another and retweet each other frequently. In the immersive engagement with these actors on Twitter, it became clear that some of these central actors provide a lot of resources and material, e.g. by linking to locked Google Drives or Dropbox folders. Beyond Twitter, the manual network shows a demarcation between mainstream and niche social media platforms. The niche platforms such as Rumble, Odyssey, BitChute or BitTube have no content moderation and users can upload any content without facing removal or the deletion of their account. These platforms form their own cluster in the network, largely disconnected from the mainstream social media sites.
 
@@ -263,7 +263,7 @@ The German SVM-classifier had an accuracy of .73 and a weighted f1-score of .72,
 
 The Polish SVM-classifier yielded both a low accuracy (.36) and a low weighted f1-score (.39). Inspection of the evaluation metrics indicate unbalanced classes, and thus the weighted precision is .57 in comparison to the weighted recall of .35. Moreover, the ‘neutral’ class had a high precision of 0.68 and a low recall of .26 and in combination with visual inspection of the confusion matrix, this may suggest a bias towards the ‘neutral’ class, supported further by the highly unbalanced class proportions of the predicted labels (figure H). 
 
-<img src="https://user-images.githubusercontent.com/86028042/122357279-e370fc80-cf53-11eb-887e-8c38254caca8.png">  
+<img src="https://user-images.githubusercontent.com/86028042/122399338-fe0a9c00-cf7a-11eb-8496-f11c4d4ff91c.png">  
 
 
 Overall, the results of the classifier evaluations were mixed and especially the Polish classifier performed poorly. This could be caused by various factors including (bad) data quality, manual errors during active learning, and bias. Thus, future steps should prioritize bias detection and correction. This should focus on correcting proportional estimates aggregated from the respective classifiers by estimating the misclassification probabilities and using these to correct the raw estimates of the class proportions. After using a new labelled test set to calculate the specific misclassification probabilities between each pair of classifications, the resulting confusion matrix should be used to find the corrective frequency (with regards to the individual classes) by taking the number of positive predictions (pos^) and multiplying it with the true positive rate (TPR=TP/(TP+FP)), then subtract the number of negative predictions (neg^) multiplied by the false negative rate (FNR=FN/(FN+TN), and finally dividing by the total number of predictions in the new test set. However, as this was not within the scope of the initial project, the results should be interpreted with caution. 
