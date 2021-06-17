@@ -55,7 +55,7 @@ Shifting the analytical focus from a cross-platform perspective to Twitter, we a
 
 We investigate anti-vaccine actors' positions through exploratory visual analysis of retweet networks. Finally, we are interested in the content of tweets relating to the Covid-19 vaccine debate:
 
-**RQ4: In which semantic contexts is the term &#39;vaccine&#39; currently used on Twitter?
+**RQ4: In which semantic contexts is the term &#39;vaccine&#39; currently used on Twitter?**
 
 In order to answer this question, we create semantic networks and qualitatively analyze the content of tweets assigned to clusters of co-occurring words.
 
