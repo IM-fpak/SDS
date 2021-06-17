@@ -1,6 +1,6 @@
 
 # Digital Methods
-- [Introduction](#introduction)
+- [Introduction (7,10,12)](#introduction)
 - [Netnography](#netnography)
   * [Key findings](#key-findings)
   * [Discussion](#discussion)
