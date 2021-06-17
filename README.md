@@ -32,7 +32,7 @@
     + [Text Classification (16)](#text-classification)
   * [Results (13)](#results)
     + [Topic models (15)](#topic-models-1)
-    + [Text classification (16)](#text-classification)
+    + [Text classification (16)](#text-classification-1)
   * [References](#references)
  
 
