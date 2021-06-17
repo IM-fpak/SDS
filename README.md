@@ -1,16 +1,14 @@
 # Digital Methods
   * [Introduction](#introduction)
-   * [Netnography](#netnography)
+  * [Netnography](#netnography)
      + [Key findings](#key-findings)
      + [Discussion](#discussion)
   * [Network Analysis](#network-analysis)
     + [Manual Networks](#manual-networks)
       - [Key findings](#key-findings-1)
+    + [Twitter data collection](#twitter-data-collection)
     + [Automated retweet network](#automated-retweet-network)
       - [Key findings](#key-findings-1)
-  * [Twitter data collection](#twitter-data-collection)
-  * [Automated retweet network](#automated-retweet-network)
-    + [Key findings](#key-findings-2)
     + [Discussion](#discussion-1)
   * [Content Analysis](#content-analysis)
     + [Key findings](#key-findings-3)
@@ -37,7 +35,7 @@
       - [Denmark](#denmark)
       - [Germany](#germany)
       - [Poland](#poland)
-  * [References](#references-)
+  * [References](#references)
  
 
 
