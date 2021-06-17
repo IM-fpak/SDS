@@ -118,6 +118,7 @@ Apart from the different sizes of the networks, we find that the clusters and po
 The k-core decomposition shows a big intra-national differences in the proportion of anti-vaccine actors in the core of the network (the higher k-shells) as opposed to the periphery (lower k-shells) of the network (see graph 7).
 
 
+<img src="https://user-images.githubusercontent.com/86028042/122355787-79a42300-cf52-11eb-96e5-a0f0f81de80a.png"> 
 
 There is a lively anti-vaccine debate on Danish Twitter with users in both the core and the periphery of the network participating in this debate. The Polish anti-vaccine actors are partly active on Twitter, while Twitter does not play a major role in the German-speaking anti-vaccine debate. Overall, these findings are in line with our conclusions drawn from the manual networks and they highlight the importance of a cross-platform netnographic investigation: Insights gained from Twitter data are highly medium-specific and do not necessarily represent a wider debate.
 
@@ -199,7 +200,10 @@ The overall strategy for the hyperparameter search is a &#39;bounded exploration
 
 Based on manual inspection and qualitative evaluations of the meaningfulness of the topics of each of the datasets, the HSBM was found to outperform the LDA which generally produced conglomerates and &#39;junk&#39; topics ( appendix XX).While the qualitative assessment revealed that junk topics were also present in the HSBM, the majority of the topics were rather meaningful. Further details of the exact topic summarizations and country specific evaluations should be found in appendix XX. The topical distributions and qualitative evaluation of the individual topics are visualized in figure XX. In general, the HSBM appeared to yield better results for the German dataset, with the majority of the topics being meaningful. In contrast, in the Danish and Polish topic models, the non-meaningful topics were among the most prevalent topics. However, the qualitative evaluation of the individual topics predominantly yielded meaningful insights of the topics associated with the covid-19 vaccine debate on twitter for all three countries.
 
-**Insert visual**
+<img src="https://user-images.githubusercontent.com/86028042/122355788-7a3cb980-cf52-11eb-9a75-d2871b78eb97.png">
+<img src="https://user-images.githubusercontent.com/86028042/122355789-7ad55000-cf52-11eb-9978-f80a65c9d1f6.png">
+<img src="https://user-images.githubusercontent.com/86028042/122355791-7ad55000-cf52-11eb-8f72-6301fbb28599.png">
+
 
 ### **Text classification**
 The best models were chosen based on an evaluation combining performance metrics and the aim of the task. Thus, keeping the objective of labelling vaxxers and anti-vaxxers in mind, in addition to accuracy and AUC the best models were selected in relation to best balance between the f1-scores for the vaxx and anti-vaxx labels. The specific search grids, final parameters of the best models, and evaluation metrics are found in appendix XX. The best models for each of the countries were fitted on the entire labeled datasets (respective to the country) prior to classifying the unlabeled tweets. The predicted class proportions are depicted in figure XX. The classifier performance was evaluated by randomly sampling from the predictions and manually labeling the sampled tweets to assess the quality of the predictions, yielding the following metrics:
