@@ -107,6 +107,12 @@ We created three automated networks based on the retweet relations in our datase
 In the graphs below (see graph 4-6), we excluded users marked as not-vaccine-related in order to focus on the actual Covid-19 vaccine-related retweet network. For each dataset, the first graph shows the six largest communities coded by color, whereas the second graph shows the same network with anti-vaccine users marked in blue.
 
 
+<img src="https://user-images.githubusercontent.com/86028042/122355066-e10da300-cf51-11eb-873f-9f5069cdbc99.png">
+
+<img src="https://user-images.githubusercontent.com/86028042/122355071-e23ed000-cf51-11eb-9970-9435192c1b60.png">
+
+<img src="https://user-images.githubusercontent.com/86028042/122355074-e23ed000-cf51-11eb-9a46-87302e14c25e.png">
+
 Apart from the different sizes of the networks, we find that the clusters and positions of anti-vaccine users differ considerably: The majority of the Danish network consists of anti-vaccine users which form a strongly connected retweeting community which is placed on the right-hand side of the graph. The Polish network only shows one such strongly connected community of anti-vaccine users on the right-hand side of the Polish graph. In comparison, the German anti-vaccine users are scattered throughout the detected communities and no clear anti-vaccine cluster is visible.
 
 The k-core decomposition shows a big intra-national differences in the proportion of anti-vaccine actors in the core of the network (the higher k-shells) as opposed to the periphery (lower k-shells) of the network (see graph 7).
