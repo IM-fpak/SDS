@@ -175,18 +175,15 @@ The codebook we used for this qualitative coding was inspired by the codebook pr
 
 Below, we present the three semantic networks containing the word lemmas in the original languages (graphs 8-10). A translation and more extensive description of the clusters can be found in the appendix (see appendix xx).
 
+<img src="https://user-images.githubusercontent.com/86028042/122357975-7f9b0380-cf54-11eb-85b7-92075145938a.png">
+In the German tweets, the focal point is the topic of vaccinating children (cluster &#39;Children&#39;). The qualitative content analysis showed that this cluster is related to the rest of the clusters because the vaccination of children was mentioned all throughout the tweets sampled from the different clusters. Interestingly, this topic emerged as a key point of the moderate anti-vaccine actors during the netnographic campaign as well (see immersion journal xx). This indicates that, while the anti-vaccine discourse takes place on different sites and is led by different actors, both the general vaccine debate and the anti-vaccine debate share a similar use of terms and are thus connected through symbolic relations.
+
 <img src="https://user-images.githubusercontent.com/86028042/122357978-80339a00-cf54-11eb-8d40-8db945c0b406.png">
-
-
 In the Polish semantic network, the anti-vaccine narratives are found mainly in three of the five clusters (cluster &#39;Covid-19 tests&#39;, &#39;Health risks&#39;, &#39;Death and disease&#39;), however in none of them it is a dominating part of the debate. Anti-vaccine tweets were most prevalent in cluster &#39;Death and disease&#39; consisting of tweets discussing vaccine-related deaths, diseases and adverse health effects. The qualitative reading revealed that in all clusters, the present anti-vaccine tweets most often refer to conspiracy theories or conceptualize vaccines as a medical experiment. A common theme, appearing in all clusters, was the organization of the Polish vaccination program; and all clusters are related by the theme of personal experiences with vaccines.
 
 <img src="https://user-images.githubusercontent.com/86028042/122357973-7f026d00-cf54-11eb-90eb-451851290719.png">
-
 In accordance with the Danish retweet network, the majority of the clusters in the semantic network were characterized as being driven by anti-vaccine themes, while only one cluster ( &#39;Miscellaneous&#39;) was more general, consisting of tweets related to, for instance, statistics, status of the vaccine plan or prioritisation. The remaining clusters contained obvious anti-vaccine trends including various narratives revolving around side effects, government mistrust, public promotion of vaccines, manipulation, vaccinating children, de facto force to obtain a corona passport, fascism and communism, gene therapy, and medical experiments.
 
-<img src="https://user-images.githubusercontent.com/86028042/122357975-7f9b0380-cf54-11eb-85b7-92075145938a.png">
-
-In the German tweets, the focal point is the topic of vaccinating children (cluster &#39;Children&#39;). The qualitative content analysis showed that this cluster is related to the rest of the clusters because the vaccination of children was mentioned all throughout the tweets sampled from the different clusters. Interestingly, this topic emerged as a key point of the moderate anti-vaccine actors during the netnographic campaign as well (see immersion journal xx). This indicates that, while the anti-vaccine discourse takes place on different sites and is led by different actors, both the general vaccine debate and the anti-vaccine debate share a similar use of terms and are thus connected through symbolic relations.
 
 ### Discussion
 
