@@ -339,7 +339,7 @@ Marcus, G. (1995). Ethnography in/of the World System: The Emergence of Multi-Si
 
 Marres, N., &amp; Gerlitz, C. (2016). Interface Methods: Renegotiating Relations between Digital Social Research, STS and Sociology. The Sociological Review, 64(1), 21–46. https://doi.org/10.1111/1467-954x.12314
 
-Munk, A. K. (2019). Four Styles of Quali-Quantitative Analysis. Nordicom Review, 40(s1), 159–176. [https://doi.org/10.2478/nor-2019-0020](https://doi.org/10.1080/21645515.2020.1780846)
+Munk, A. K. (2019). Four Styles of Quali-Quantitative Analysis. Nordicom Review, 40(s1), 159–176. [https://doi.org/10.2478/nor-2019-0020](https://doi.org/10.2478/nor-2019-0020)
 
 Puri, N., Coomes, E. A., Haghbayan, H., &amp; Gunaratne, K. (2020). Social media and vaccine hesitancy: new updates for the era of COVID-19 and globalized infectious diseases. Human vaccines &amp; immunotherapeutics, 16(11), 2586–2593. [https://doi.org/10.1080/21645515.2020.1780846](https://doi.org/10.1080/21645515.2020.1780846)
 
